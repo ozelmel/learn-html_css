@@ -99,43 +99,115 @@ p {
   color: #fff;
 }
 
-.p-1 {padding: 0.5rem;}
-.p-2 {padding: 0.6rem;}
-.p-3 {padding: 0.8rem;}
-.p-4 {padding: 1rem;}
-
-.pt-1 {padding-top: 0.5rem;}
-.pt-2 {padding-top: 0.6rem;}
-.pt-3 {padding-top: 0.8rem;}
-.pt-4 {padding-top: 1rem;}
-
-.m-1 {padding: 0.5rem;}
-.m-2 {padding: 0.6rem;}
-.m-3 {padding: 0.8rem;}
-.m-4 {padding: 1rem;}
-
-.py-1{padding-top: 0.5rem;
-padding-bottom: 0.5rem;}
-
-.py-2{padding-top: 0.6rem;
-padding-bottom: 0.6rem;}
-
-.px-1{padding-right: 0.5rem;
-padding-left: 0.5rem;}
-
-.px-2{padding-right: 0.6rem;
-padding-left: 0.6rem;}
-
-.card{
-    background-color: #fff;
-    padding: 1rem;
+.p-1 {
+  padding: 0.5rem;
 }
-.card-primary{
-    background-color:var(--primary-color);
-    padding: 1rem;
+.p-2 {
+  padding: 0.6rem;
+}
+.p-3 {
+  padding: 0.8rem;
+}
+.p-4 {
+  padding: 1rem;
 }
 
+.pt-1 {
+  padding-top: 0.5rem;
+}
+.pt-2 {
+  padding-top: 0.6rem;
+}
+.pt-3 {
+  padding-top: 0.8rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
 
+.m-1 {
+  padding: 0.5rem;
+}
+.m-2 {
+  padding: 0.6rem;
+}
+.m-3 {
+  padding: 0.8rem;
+}
+.m-4 {
+  padding: 1rem;
+}
 
+.py-1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
 
+.py-2 {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
 
+.px-1 {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.px-2 {
+  padding-right: 0.6rem;
+  padding-left: 0.6rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem;
+}
+.card-primary {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+/* navbar */
+
+#main-nav {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+#main-nav .container {
+  display: grid;
+  grid-template-columns: 0.6fr 3fr 2fr;
+  padding: 1rem;
+  align-items: center;
+}
+
+#main-nav .logo {
+  width: 65px;
+}
+
+#main-nav ul {
+  display: flex;
+  justify-self: center;
+}
+
+#main-nav ul li a {
+  padding: 0.6rem;
+  font-weight: bold;
+}
+
+#main-nav ul li a.active {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+#main-nav ul li a:hover{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+#main-nav .social-icons {
+  justify-self: end;
+}
