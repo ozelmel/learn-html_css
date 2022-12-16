@@ -1,5 +1,5 @@
 // main-nav
-.main-nav{
+.main-nav {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
@@ -7,25 +7,25 @@
         width: 70px;
         height: 70px;
     }
-    &__items{
+    &__items {
         display: flex;
 
         li {
             padding: 1rem 1.5rem;
 
-            a{
+            a {
                 text-decoration: none;
                 color: #fff;
                 text-transform: uppercase;
                 border-bottom: 3px transparent solid;
-                padding-bottom: .5rem;
-                transition: border-color .5s;
+                padding-bottom: 0.5rem;
+                transition: border-color 0.5s;
 
-                &:hover{
+                &:hover {
                     border-color: $medium-color;
                 }
 
-                &.active{
+                &.active {
                     border-color: $primary-color;
                 }
             }
@@ -33,14 +33,13 @@
     }
 }
 
-
 #header {
-    &__home{
-        background:$bg-image no-repeat center right/cover;
+    &__home {
+        background: $bg-image no-repeat center right/cover;
         height: 100vh;
         color: #fff;
 
-        .header-content{
+        .header-content {
             text-align: center;
             padding-top: 30%;
         }
@@ -53,5 +52,11 @@
         .typewrite {
             display: block;
         }
+    }
+
+    &__inner {
+        background: $bg-image no-repeat 40% 20% / cover;
+        height: 5.5rem;
+        border-bottom: 3px solid $primary-color;
     }
 }
