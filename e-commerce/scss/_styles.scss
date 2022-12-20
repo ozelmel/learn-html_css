@@ -1,13 +1,13 @@
- .top-bar {
-     padding-top: 1rem;
-     padding-bottom: 1rem;
- }
+.top-bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
- .btn-light {
-     background-color: #fff;
-     border-color: #dee2e6;
-     color: #212529;
- }
+.btn-light {
+    background-color: #fff;
+    border-color: #dee2e5;
+    color: #212529;
+}
 
 .btn-light:hover {
     border-color: #c1c9d0;
@@ -22,3 +22,24 @@
     color: #9da1a7;
 }
 
+.slider {
+    &__nav {
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slider {
+        &__nav {
+            max-height: 300px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .slider {
+        &__nav {
+            max-height: 350px;
+        }
+    }
+}
